@@ -1,3 +1,7 @@
+* {
+  color: rgb(53, 53, 53);
+}
+
 body {
   font-family: "Raleway", sans-serif;
   margin: 0;
@@ -6,7 +10,7 @@ body {
 header {
   width: 100%;
   position: fixed;
-  background-color: rgb(228, 228, 228);
+  background-color: rgb(238, 236, 236);
   text-align: right;
 }
 
@@ -17,8 +21,27 @@ li {
   margin-right: 50px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: rgb(0, 128, 0);
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(139, 0, 139);
+}
+
 main {
   padding: 60px 20px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
 }
 
 figure {
@@ -28,4 +51,40 @@ figure {
 
 p {
   text-align: justify;
+}
+
+h2,
+footer {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 50%;
+  padding: 7px;
+}
+
+label {
+  display: inline-block;
+  padding: 5px;
+  display: none;
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 20%;
+  background-color: rgb(188, 183, 245);
+}
+
+.namefield,
+.emailfield,
+.button {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  padding-bottom: 20px;
 }

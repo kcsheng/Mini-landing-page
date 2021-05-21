@@ -16,25 +16,20 @@
     <header>
       <nav>
         <ul>
-          <li>Portfolio</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><a href="https://www.github.com/kcsheng">Github</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
-          officiis aspernpariatur quae fugit commodi, quo vel voluptates, et
-          neque dicta rem magni magnam molestiae id mollitia expedita unde iusto
-          soluta, explicabo aspernatur. Sequi, doloribus nam voluptas ullam
-          aliquid consequatur sapiente libero ab consectetur consequuntur
-          asperiores minima qui tempore architecto hic dignissimos eaque at. Qui
-          dolor eveniet, quo architecto nisi quis ex!
-        </p>
+      <h1>Welcome to My Landing Page!</h1>
+      <section id="portfolio">
         <figure>
-          <img src="./assets/images/sunrise.jpg" alt="mountain sunrise" />
+          <img
+            src="./assets/images/sunrise.jpg"
+            alt="sunrise behind the mountain"
+          />
           <figcaption>
             Lorem ipsum dolor sit amet consectetur adipisicing
           </figcaption>
@@ -47,10 +42,44 @@
           soluta, explicabo aspernatur. Sequi, doloribus nam voluptas ullam
           aliquid consequatur sapiente libero ab consectetur consequuntur
           asperiores minima qui tempore architecto hic dignissimos eaque at. Qui
-          dolor eveniet, quo architecto nisi quis ex!
+          dolor eveniet, quo architecto nisi quis ex! Lorem, ipsum dolor sit
+          amet consectetur adipisicing elit. Quam officiis aspernpariatur quae
+          fugit commodi, quo vel voluptates, et neque dicta rem magni magnam
+          molestiae id mollitia expedita unde iusto soluta, explicabo
+          aspernatur. Sequi, doloribus nam voluptas ullam aliquid consequatur
+          sapiente libero ab consectetur consequuntur asperiores minima qui
+          tempore architecto hic dignissimos eaque at. Qui dolor eveniet, quo
+          architecto nisi quis ex!
         </p>
       </section>
+
+      <section id="contact">
+        <h2>Register for our weekly newsletter</h2>
+        <form>
+          <div class="namefield">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="user-name"
+              placeholder="Your name..."
+            />
+          </div>
+          <div class="emailfield">
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              id="email"
+              name="user-email"
+              placeholder="Your email address..."
+            />
+          </div>
+          <div class="button">
+            <button type="submit">SEND</button>
+          </div>
+        </form>
+      </section>
     </main>
-    <footer></footer>
+    <footer>&copy; KC Sheng Production 2021</footer>
   </body>
 </html>
