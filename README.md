@@ -16,6 +16,8 @@ Not required at present:
 
 - Responsiveness
 
+The page can be accessed [here](https://kcsheng.github.io/Mini-landing-page/).
+
 ## Acceptance Criteria
 
 - It's done when the page uses semantic HTML elements.
